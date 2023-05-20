@@ -133,7 +133,6 @@ def plot(input: str, output: str, style: Optional[str], libs: List[str],
          vcuts: bool, dpi: int, margin: float, silent: bool, werror: bool,
          resistor_values: List[str], resistor_flip: List[str], rotation_values: List[str],
          components: bool, paste: bool, outline_width: float, show_lib_paths: bool,
-         resistor_values: List[str], resistor_flip: List[str], components: bool,
          copper: bool, paste: bool, outline_width: float, show_lib_paths: bool) -> int:
     """
     Create a stylized drawing of the PCB.
